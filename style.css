@@ -1,0 +1,212 @@
+*{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+}
+.fond{
+    background: linear-gradient(to top, #fff, #D9D9D9);
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 1024px;
+    background-color: white;
+    box-shadow: 5px 10px 15px black;
+}
+
+
+footer{
+    background-color:  #3FC9FA;
+    margin-bottom: 70px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    background-color: #3FC9FA;
+}
+
+li{
+    padding: 20px;
+}
+
+nav li:hover{
+    background-color: #F583E3;
+}
+
+#acceuil{
+    background-color: #f583e3;
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a{
+    padding: 15px;
+    font-size: 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.foot{
+    height: 25px;
+}
+
+footer a:hover{
+    color: blue
+}
+
+h1{
+    margin-left: 20px;
+}
+
+h2{
+    color: #40CAFB;
+}
+
+.Titre{
+    width: 40%;
+}
+
+.bandeau{
+    width: 100%;
+}
+
+.Aide{
+    width: 30%;
+}
+
+.sousTitreLogo{
+    color: #F583E3;
+    position: relative;
+    top: -10px;
+    right: -35px;
+}
+
+.enTete{
+    display: flex;
+}
+
+.monCompte{
+    background-color: #3FC9FA;
+    border-bottom: 1px solid white;
+}
+
+.ComptePanier{
+    background-color: #3FC9FA;
+    height: 80px;
+    width: 30%;
+}
+
+.NumeroAide{
+    color:  blue;
+    font-weight: bold;
+    position: relative;
+    top: -40px;
+    left: 50px
+}
+
+.sousTitreAide{
+    color: #B2B2B2;
+}
+
+.DateReduite{
+    height: 10px;    
+}
+
+.blocP{
+    display: flex;
+}
+
+.blocS{
+    display: flex;
+}
+
+.Paiement{
+    width: 20%;
+    padding-right: 15px ;
+}
+
+.Qui{
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    width: 55%;
+}
+
+.Services{
+    width: 25%;
+}
+
+.Services h2{
+    padding-left: 20px;
+}
+
+.blocP div{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.blocP p{
+    font-size: 11px;
+}
+
+.blocP h2{
+    font-size: 20px;
+}
+
+.blocS div{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 5px black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.newsletter{
+    margin-left: 115px;
+}
+
+.imgLogo{
+    width: 100%;
+    position: relative;
+    top: 20px;
+}
+
+.blocS img{
+    float: left;
+}
+
+.blocS p{
+    font-size: 12px;
+}
+
+.chemise a{
+    position: relative;
+    right: 1px;
+    bottom: 10px;
+}
+
+.blocS a{
+    margin-left: 10px;
+}
+
+.robe, .talons, .chemise{
+border: 1px solid grey;
+width: 30%;
+border-radius: 5%;
+}
+
+.divrobe, .divtalons, .divchemise{
+    background-color: #D9D9D9;
+    width: 100%;
+    display: block;
+    text-align: center;
+    border-radius: 5%;
+}
